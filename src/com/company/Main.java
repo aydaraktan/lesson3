@@ -22,6 +22,25 @@ public class Main {
                 case "shama":
                     System.out.println("доброе вечер " + a[2]);
             }
+        
+//         String a;
+//         String[] name=new String[3];
+//         name[0]="azat";
+//         name[1]="shama";
+//         name[2]="noki";
+//         for (int i = 0; i < 3; i++){
+//             switch (i) {
+//                 case 0:
+//                     System.out.println("доброе утро   "+name[i]);
+//                     break;
+//                 case 1:
+//                     System.out.println("доброе день   "+name[i]);
+//                     break;
+//                 case 2:
+//                     System.out.println("доброе вечер   "+name[i]);
+//                     break;
+//             }
+//         }
 
 //        int a[]= {44,55,66};
 //        Scanner d = new Scanner(System.in);
