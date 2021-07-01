@@ -23,24 +23,29 @@ public class Main {
                     System.out.println("доброе вечер " + a[2]);
             }
         
-//         String a;
-//         String[] name=new String[3];
-//         name[0]="azat";
-//         name[1]="shama";
-//         name[2]="noki";
-//         for (int i = 0; i < 3; i++){
-//             switch (i) {
-//                 case 0:
-//                     System.out.println("доброе утро   "+name[i]);
-//                     break;
-//                 case 1:
-//                     System.out.println("доброе день   "+name[i]);
-//                     break;
-//                 case 2:
-//                     System.out.println("доброе вечер   "+name[i]);
-//                     break;
-//             }
-//         }
+        String a;
+        String[] name=new String[3];
+        name[0]="azat";
+        name[1]="shama";
+        name[2]="noki";
+        name = Arrays.copyOf(name, name.length + 1);
+        name[3] = "Faruh";
+        for (int i = 0; i < name.length; i++){
+            switch (i) {
+                case 0:
+                    System.out.println("доброе утро   "+name[i]);
+                    break;
+                case 1:
+                    System.out.println("добрый день   "+name[i]);
+                    break;
+                case 2:
+                    System.out.println("добрый вечер   "+name[i]);
+                    break;
+                case 3:
+                    System.out.println("доброй ночи   "+name[i]);
+                    break;
+            }
+        }
 
 //        int a[]= {44,55,66};
 //        Scanner d = new Scanner(System.in);
